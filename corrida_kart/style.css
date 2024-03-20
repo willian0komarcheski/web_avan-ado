@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.pista {
+    height: 300px;
+    width: 1000px;
+    background-color: grey;
+    position: relative;
+}
+
+
+.kart {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 5px;
+    text-align: center;
+    transition: all 600ms ease-in-out;
+}
+
+.kart.kart1 {
+    bottom: 0px;
+}
+
+.kart.kart2 {
+    bottom: 60px;
+}
+
+.kart.kart3 {
+    bottom: 120px;
+}
+
+.kart.kart4 {
+    bottom: 180px;
+}
+
+.kart.kart5 {
+    bottom: 240px;
+}
+
+#money {
+    color: white;
+}
+
